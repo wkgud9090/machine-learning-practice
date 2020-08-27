@@ -1,0 +1,19 @@
+1) 다운받아 설치하기 
+https://desktop.github.com/
+
+2) 바탕화면에 설치된 아이콘 마우스 우측 버튼 
+[속성]
+[파일위치 열기]
+
+3) 탐색기에서 git.exe 파일위치 찾아가기 
+보통 아래 위치에 있다. 파일 경로 복사 
+
+C:\Users\student\AppData\Local\GitHubDesktop\app-2.5.3\resources\app\git\cmd\
+
+4) 윈도우 탐색기 프로그램에서 
+내 pc(내컴퓨터) 우클릭 > 속성 > 고급 시스템 설정 > 고급 탭 > 환경변수 > 시스템 변수의 path 항목에 복사한 경로 추가
+
+5)터미널 모드에서 다음 실행 
+pip install git+https://github.com/python-visualization/branca.git@master
+
+6) 쥬피터 노트북에서 Folium 팝업 확인 
